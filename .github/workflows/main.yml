@@ -17,7 +17,7 @@ jobs:
         run: |
           npm install
           npm run build
-          npm run start
+          
 
       - name: Deploy
         # Only run this step if the branch is main
