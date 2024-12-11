@@ -5,7 +5,7 @@ import { Form, Button, Alert } from 'react-bootstrap';
 import Auth from '../utils/auth';
 import type { User } from '../models/User';
 
-const SignupForm = ({ handleForm } : { handleForm: () => void }) => {
+const SignupForm = ({ } : { handleForm: () => void }) => {
   const [userFormData, setUserFormData] = useState<User>({
     username: '',
     email: '',

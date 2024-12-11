@@ -6,7 +6,7 @@ import SignupForm from './Signup';
 import Auth from '../utils/auth';
 
 import { createStyles } from 'antd-style';
-import { Divider } from 'antd';
+
 const useStyle = createStyles(({ css }) => ({
     container: css`
         position: relative;
