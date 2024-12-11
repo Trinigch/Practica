@@ -2,5 +2,3 @@
 # Trivia Titans
 
 
-
-asdf
